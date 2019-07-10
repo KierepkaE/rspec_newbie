@@ -36,6 +36,7 @@ describe "Library"do
   end
 
   it "return all the books in given category" do
-    @lib.get_books_in_category(:development).length.should == 0
+    @lib.get_books_in_category(:development).length.should == 2
     # @lib.shoud have(0).get_books_in_category :development
+  end
 end
