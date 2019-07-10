@@ -1,6 +1,6 @@
 ---
 - !ruby/object:Book
-  title: 'JavaScript: The Good Parts'
+  title: JavaScript: The Good Parts
   author: Douglas Crocford
   category: :development
 - !ruby/object:Book
@@ -19,3 +19,5 @@
   title: Responsive Web Design
   author: Ethan Marcotte
   category: :design
+
+
