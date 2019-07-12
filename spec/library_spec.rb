@@ -47,8 +47,8 @@ describe "Library"do
 
   it "saves the library" do
     books = @lib.books.map {|book| book.title}
-    @lib.save "our_new_lib"
-    lib2 = Library.new "new_books.yml"
+    @lib.save "our_new_lib.yml"
+    lib2 = Library.new("our_new_lib.yml")
     books2 = lib2.books.map {|book| book.title}
     books.should eql books2
   end
