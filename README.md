@@ -2,12 +2,12 @@
 
 **RSPEC**
 
-- TDD using rspec library
+`TDD using rspec library`
 
 **install**
 
-- gem install rspec
+`gem install rspec`
 
 **setup**
 
-- rspec --init
+`rspec --init`
