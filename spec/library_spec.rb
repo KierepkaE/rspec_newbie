@@ -42,6 +42,6 @@ describe "Library"do
 
   it "accepts new books" do
     @lib.add_book(Book.new("Designing for the Web", "Mark Boulton", :design ))
-    @lib.get_book("Dedigning for the Web").should be_an_instance_of Book
+    @lib.get_book("Designing for the Web").should be_an_instance_of Book
   end
 end

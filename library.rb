@@ -13,4 +13,12 @@ class Library
       book.category == category
     end
   end
+
+  def add_book book
+    @books << book
+  end
+
+  def get_book title
+    @books.select {|book| book.title == title }.first
+  end
 end
