@@ -1,6 +1,6 @@
 # rspec_newbie
 
-#### first tests with rspec
+### first tests with rspec
 
 **RSPEC**
 
