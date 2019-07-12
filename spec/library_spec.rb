@@ -39,4 +39,9 @@ describe "Library"do
     @lib.get_books_in_category(:development).length.should == 2
     # @lib.shoud have(0).get_books_in_category :development
   end
+
+  it "accepts new books" do
+    @lib.add_book(Nook.new("Designing for the Web", "Mark Boulton", :design ))
+    @lib.get_book("Dedigning for the Web").should be_an_instance_of Book
+  end
 end
